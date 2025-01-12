@@ -1,0 +1,158 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  background: #00021F;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 2px solid #1338BE;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: -2px;
+}
+
+.logo img {
+  width: 70px;
+  height: 50px;
+  border-radius: 60%;
+  border: 2px solid black;
+}
+
+.icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #1338BE;
+}
+
+.note {
+  color: white;
+}
+
+.nav-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-weight: bold;
+  background: transparent;
+}
+
+.nav-buttons a:hover {
+  background: #1338BE;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+/* Content Styles */
+.intro-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.projects-skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.projects {
+  width: 60%;
+}
+
+.projects h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.skills {
+  width: 35%;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skill-box {
+  background-color: #0D0C0C;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.skill-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill-description {
+  font-size: 0.9rem;
+}
+
+.cv-button {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cv-btn {
+  padding: 10px 20px;
+  background-color: #1338BE;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.cv-btn:hover {
+  background-color: #1a73e8;
+  transition: background-color 0.3s ease;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #000;
+  color: white;
+  border-top: 2px solid #1338BE;
+}

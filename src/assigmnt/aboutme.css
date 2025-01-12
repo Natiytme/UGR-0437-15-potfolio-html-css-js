@@ -1,0 +1,147 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  background: #00021F;
+  color: white;
+  line-height: 1.6;
+}
+
+
+header {
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 2px solid #1338BE;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: -2px;
+}
+
+.logo img {
+  width: 70px;
+  height: 50px;
+  border-radius: 60%;
+  border: 2px solid black;
+}
+
+.icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #1338BE;
+}
+
+.note {
+  color: white;
+}
+
+.nav-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-weight: bold;
+  background: transparent;
+}
+
+.nav-buttons a:hover {
+  background: ;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+.intro-text h3 {
+  font-size: 1.8rem;
+  color: #1338BE;
+  margin-bottom: 30px;
+}
+
+
+.education-table {
+  margin: 20px auto;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: #1338BE;
+  color: white;
+}
+
+thead th {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+tbody tr {
+  background-color: #222;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #333;
+}
+
+tbody td {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #444;
+}
+
+tbody tr:hover {
+  background-color: #1338BE;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+
+.closing-text p {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #000;
+  color: white;
+  border-top: 2px solid #1338BE;
+  margin-top: 20px;
+}
